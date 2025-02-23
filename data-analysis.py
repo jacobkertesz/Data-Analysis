@@ -101,12 +101,4 @@ def equateCorrelation(n, x, y, xy, x2, y2):
     return answer
 
 
-#getCorrelation test
-def testGetCorrelation():
-    d = {'col1': [1,2,3,4,5,6,7,8,9,10], 'col2': [10,20,30,40,50,60,70,80,90,100]}
-    df = pd.DataFrame(data= d)
-    r = getCorrelation(df, 'col1', 'col2')
-    print(r) # r should be 1
-
-
 main()
